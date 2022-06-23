@@ -10,7 +10,7 @@ func handleinput(s []string, reader *bufio.Reader) {
 	case "ADDUSER":
 		createUser(s, reader)
 	case "PRINTUSERS":
-		fmt.Println(userArr)
+		fmt.Println(users)
 	default:
 		fmt.Println("incorrect message")
 	}
